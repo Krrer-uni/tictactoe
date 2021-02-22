@@ -1,12 +1,13 @@
 #include "lib.h"
 #include <algorithm>
 #include <iostream>
-
+//siemasiema
 int min(int a, int b){
     return (a < b) ? a : b;
 }
 
 int check(int board[3][3]){
+    int kk;
     int state_a, state_b;
 
     for(int x = 0; x < 3; x++){
